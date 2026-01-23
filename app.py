@@ -8,7 +8,7 @@ def add(a, b):
 
 @app.route('/')
 def home():
-    //What the user will see in the browser
+    #What the user will see in the browser
     result = add(10, 20)
     return f"<h1>Hello from the Dev Side!</h1><p>The calculation is: {result}</p>"
 
